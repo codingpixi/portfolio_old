@@ -6,7 +6,7 @@ class App extends Component {
   render () {
     return (
       <div>
-        <ul>
+        <ul className="navigation">
           <li>detra</li>
           <li>portfolio</li>
           <li>about</li>
