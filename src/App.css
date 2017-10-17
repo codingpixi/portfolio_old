@@ -22,3 +22,43 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.ContainerMain {
+  display: flex;
+  background-color:#F2A99B;
+  padding: 20em;
+  border-width: 2em;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.Box1 {
+  background-color:#F2A99B;
+}
+
+.Box2 {
+
+}
+
+.Box3 {
+
+}
+
+.Navigation {
+  background-color: #F2A99B;
+  -ms-align-items: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.NavBox1 {
+  flex: 1;
+}
+
+.NavBox2 {
+  flex: 2;
+}
+
+.NavBox3 {
+  flex: 3;
+}
