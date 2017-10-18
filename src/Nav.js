@@ -1,16 +1,29 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.js';
+// import './App.js';
 
-class App extends Component {
+class Nav extends Component {
   render () {
     return (
       <div>
-        <ul className="navigation">
-          <li>detra</li>
-          <li>portfolio</li>
-          <li>about</li>
-        </ul>
+        <div>
+          <ul className="Navigation">
+            <li>detra</li>
+            <li>portfolio</li>
+            <li>about</li>
+          </ul>
+        </div>
+        <div>
+          <div className='NavBox1'>
+            <h3>detra</h3>
+          </div>
+          <div className='NavBox2'>
+            <h3>portfolio</h3>
+          </div>
+          <div className='NavBox3'>
+            <h3>about</h3>
+          </div>
+        </div>
       </div>
     );
   }
