@@ -22,7 +22,10 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> oct18
 .ContainerMain {
   display: flex;
   background-color:#F2A99B;
@@ -32,6 +35,7 @@
   border-style: solid;
 }
 
+<<<<<<< HEAD
 .Box1 {
   background-color:#F2A99B;
 }
@@ -44,11 +48,17 @@
 
 }
 
+=======
+>>>>>>> oct18
 .Navigation {
   background-color: #F2A99B;
   -ms-align-items: center;
   align-items: center;
   list-style-type: none;
+<<<<<<< HEAD
+=======
+  display: flex;
+>>>>>>> oct18
 }
 
 .NavBox1 {
@@ -62,3 +72,31 @@
 .NavBox3 {
   flex: 3;
 }
+<<<<<<< HEAD
+=======
+
+.Social1 {
+  flex: 1;
+}
+
+.Social2 {
+  flex: 2;
+}
+
+.Social3 {
+  flex: 3;
+}
+
+
+.ContainerPink {
+  background-color: #F2A99B;
+}
+
+.ContainerGray {
+  /*background-color: #;*/
+}
+
+.ContainerBlue {
+  /*background-color: #;*/
+}
+>>>>>>> oct18
