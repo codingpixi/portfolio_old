@@ -7,9 +7,9 @@ class Nav extends Component {
     return (
       <div>
         <ul className="navigation">
-          <li>detra</li>
-          <li>portfolio</li>
-          <li>about</li>
+          <li className="NavBox1">detra</li>
+          <li className="NavBox2">portfolio</li>
+          <li ClassName="NavBox3">about</li>
         </ul>
       </div>
     );
