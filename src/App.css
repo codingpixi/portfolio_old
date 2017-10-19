@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -21,35 +21,42 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+}*/
 
 .ContainerMain {
-  display: flex;
   background-color:#F2A99B;
-  padding: 20em;
-  border-width: 2em;
+  /*padding: 2em;*/
+  /*border-width: 2em;
   border-color: #fff;
-  border-style: solid;
+  border-style: solid;*/
+}
+
+.Logo {
+
 }
 
 .Navigation {
-  background-color: #F2A99B;
-  -ms-align-items: center;
-  align-items: center;
-  list-style-type: none;
+  /*background-color: #F2A99B;*/
+  /*-ms-align-items: center;
+  align-items: center;*/
   display: flex;
+  width: 20%;
+  padding-left: 2em;
 }
 
 .NavBox1 {
   flex: 1;
+  order: 2;
 }
 
 .NavBox2 {
-  flex: 2;
+  flex: 1;
+  order: 1;
 }
 
 .NavBox3 {
-  flex: 3;
+  flex: 1;
+  order: 3;
 }
 
 .Social1 {
@@ -57,11 +64,11 @@
 }
 
 .Social2 {
-  flex: 2;
+  flex: 1;
 }
 
 .Social3 {
-  flex: 3;
+  flex: 1;
 }
 
 .ContainerPink {
@@ -69,7 +76,10 @@
 }
 
 .ContainerGray {
-  /*background-color: #;*/
+  background-color: #D6D9DA;
+  /*background-color: #9F8B67;*/
+  /*border-style: solid;*/
+  border-top: thick double #9F8B67;
 }
 
 .ContainerBlue {

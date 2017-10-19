@@ -4,7 +4,7 @@ class Intro extends Component {
   render () {
     return (
       <div className='ContainIntro'>
-        <button>What now</button>
+        <button>What now</button> <br />
         <h1> @ddsheard Portfolio</h1>
       </div>
     );

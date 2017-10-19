@@ -6,14 +6,12 @@ class Nav extends Component {
   render () {
     return (
       <div>
-        <div>
-          <ul className="Navigation">
-            <li>detra</li>
-            <li>portfolio</li>
-            <li>about</li>
-          </ul>
+
+        <div ClassName="Logo">
         </div>
-        <div>
+
+        <div className="Navigation">
+
           <div className='NavBox1'>
             <h3>detra</h3>
           </div>
@@ -23,7 +21,9 @@ class Nav extends Component {
           <div className='NavBox3'>
             <h3>about</h3>
           </div>
+
         </div>
+
       </div>
     );
   }
